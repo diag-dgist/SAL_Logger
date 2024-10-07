@@ -1,20 +1,20 @@
 
 // Solar System 1
 document.getElementById('pdf1').addEventListener('click', function () {
-    chrome.tabs.create({ url: 'https://fergame.diag.kr/www/book1.html' });
+    chrome.tabs.create({ url: '{enter the path of documents}' });
 });
 
 // Solar System 2
 document.getElementById('pdf2').addEventListener('click', function () {
-    chrome.tabs.create({ url: 'https://fergame.diag.kr/www/book2.html' });
+    chrome.tabs.create({ url: '{enter the path of documents}' });
 });
 
 // DBMS
 document.getElementById('pdf3').addEventListener('click', function () {
-    chrome.tabs.create({ url: 'https://fergame.diag.kr/www/book3.html' });
+    chrome.tabs.create({ url: '{enter the path of documents}' });
 });
 
 // Sampling
 document.getElementById('pdf5').addEventListener('click', function () {
-    chrome.tabs.create({ url: 'https://fergame.diag.kr/www/book4.html' });
+    chrome.tabs.create({ url: '{enter the path of documents}' });
 });

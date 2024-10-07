@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "DIAG LOG",
-    "version": "2",
+    "name": "SAL Logger",
+    "version": "3.0",
     "permissions": ["storage"],
     "host_permissions": [
-        "http://fergame.diag.kr/*"
+        "{enter your server path}"
     ],
     "background": {
       "service_worker": "background.js"

@@ -5,7 +5,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 });
 
 function sendDataToServer(data) {
-    fetch('http://fergame.diag.kr:3000/log', {  // If you want to get log data at server, revise this line.
+    fetch('{enter your server url}', {  // If you want to get log data at server, revise this line.
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
